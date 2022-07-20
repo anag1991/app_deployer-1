@@ -1,0 +1,8 @@
+namespace          = "dev"
+deployment_name    = "artemis"
+replicaCount       = "1"
+repository         = "us-central1-docker.pkg.dev/xltmkfaeyrcibbij/artemis/artemis"
+tag                = "5.0.0"
+port               = "5000"
+ingress_enabled    = "true"
+google_domain_name = "ryanchunn.com"
